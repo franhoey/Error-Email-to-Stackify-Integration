@@ -2,7 +2,7 @@
 {
     public class Settings
     {
-        public const string EMAIL_ADDRESS = "fran.hoey";
-        public const string PASSWORD = "gagglE123";
+        public const string EMAIL_ADDRESS = "masked";
+        public const string PASSWORD = "masked";
     }
 }

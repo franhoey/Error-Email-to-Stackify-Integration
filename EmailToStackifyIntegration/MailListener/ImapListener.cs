@@ -64,7 +64,7 @@ namespace EmailToStackifyIntegration.MailListener
                     // Accept all SSL certificates
                     client.ServerCertificateValidationCallback = (s, c, h, e) => true;
 
-                    client.Connect("mail.emac.ltd.uk", 993, true);
+                    client.Connect("masked", 993, true);
 
                     // Note: since we don't have an OAuth2 token, disable
                     // the XOAUTH2 authentication mechanism.
